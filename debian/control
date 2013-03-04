@@ -1,0 +1,13 @@
+Source: python-organizer-console
+Section: unknown
+Priority: extra
+Maintainer: Thomas Perl <m@thp.io>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+
+Package: python-organizer-console
+Architecture: all
+Depends: ${misc:Depends}, python-qtmobility.organizer
+Description: Interactive Python Console with Organizer permissions
+ Allows access to Qt Mobility Organizer
+
